@@ -323,3 +323,24 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .section.dark {
+  background-color: #232f3e;
+  color: #fff;
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark a:any-link {
+  color: #00b0f0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3 {
+  color: #fff;
+}
+
+main .section.dark p {
+  color: rgb(255 255 255 / 85%);
+}
