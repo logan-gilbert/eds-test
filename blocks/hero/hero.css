@@ -35,3 +35,32 @@
     padding: 40px 32px;
   }
 }
+/* Alexa-style gradient hero */
+.hero.alexa {
+  background: linear-gradient(135deg, #0d0d3b 0%, #1a1a6e 50%, #0d3b6e 100%);
+  color: #fff;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+}
+
+.hero.alexa h1 {
+  color: #fff;
+  font-size: clamp(28px, 4vw, 48px);
+}
+
+.hero.alexa p { color: rgba(255, 255, 255, 0.9); }
+
+.hero.alexa a.button,
+.hero.alexa a:any-link {
+  background: #ff9900;
+  color: #111;
+  border-radius: 4px;
+  padding: 10px 22px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.hero.alexa a:hover { background: #e68a00; }
